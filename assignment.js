@@ -24,11 +24,11 @@ function budgetCalculator(watch, mobile, laptop) {
     if (watch == null || watch == undefined || watch < 0 || watch % 1 != 0) {
         return "Please sir, give valid value for watch.";
     }
-    // Check given watch value is valid or not
+    // Check given mobile value is valid or not
     if (mobile == null || mobile == undefined || mobile < 0 || mobile % 1 != 0) {
         return "Please sir, give valid value for mobile.";
     }
-    // Check given watch value is valid or not
+    // Check given laptop value is valid or not
     if (laptop == null || laptop == undefined || laptop < 0 || laptop % 1 != 0) {
         return "Please sir, give valid value for laptop.";
     }
